@@ -1,6 +1,6 @@
-package pe.edu.unprg.java.ejemplos.utilidad;
+package pe.edu.unprg.java.ejemplos;
 
-import pe.edu.unprg.java.ejemplos.model.*;
+import pe.edu.unprg.java.ejemplos.modelo.*;
 
 import java.time.LocalDate;
 import java.util.Arrays;

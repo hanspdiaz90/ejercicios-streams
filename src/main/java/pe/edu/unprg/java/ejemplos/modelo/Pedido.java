@@ -1,4 +1,4 @@
-package pe.edu.unprg.java.ejemplos.model;
+package pe.edu.unprg.java.ejemplos.modelo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

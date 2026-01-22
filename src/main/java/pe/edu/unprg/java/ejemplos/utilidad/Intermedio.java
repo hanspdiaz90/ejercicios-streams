@@ -1,7 +1,7 @@
 package pe.edu.unprg.java.ejemplos.utilidad;
 
-import pe.edu.unprg.java.ejemplos.model.Empleado;
-import pe.edu.unprg.java.ejemplos.model.Pedido;
+import pe.edu.unprg.java.ejemplos.modelo.Empleado;
+import pe.edu.unprg.java.ejemplos.modelo.Pedido;
 
 import java.util.*;
 import java.util.function.Function;
@@ -9,7 +9,7 @@ import java.util.function.Predicate;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 
-public class IntermedioIntermedio {
+public class Intermedio {
 
     //1. Agrupar empleados por departamento
     public static Map<String, List<Empleado>> agruparEmpleadosByDepartamento(List<Empleado> datamockEmpleados){

@@ -1,4 +1,4 @@
-package pe.edu.unprg.java.ejemplos.enums;
+package pe.edu.unprg.java.ejemplos.enumerado;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
