@@ -17,4 +17,12 @@ public class Alumno {
     private String apellidoMaterno;
     private LocalDate fechaNacimiento;
 
+    @Override
+    public String toString() {
+        return String.format(
+                "Alumno{dni=%s, nombres='%s', paterno=%s, materno=%s, nacimiento=%s}",
+                dni, nombres, apellidoPaterno, apellidoMaterno, fechaNacimiento
+        );
+    }
+
 }

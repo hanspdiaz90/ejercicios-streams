@@ -18,4 +18,12 @@ public class Empleado {
     private boolean activo;
     private LocalDate fechaIngreso;
 
+    @Override
+    public String toString() {
+        return String.format(
+                "Empleado{id=%d, nombre='%s', departamento='%s', salario=S/. %.2f, activo=%s, ingreso=%s}",
+                id, nombre, departamento, salario, activo, fechaIngreso
+        );
+    }
+
 }

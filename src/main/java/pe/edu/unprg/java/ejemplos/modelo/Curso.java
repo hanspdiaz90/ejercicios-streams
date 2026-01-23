@@ -17,4 +17,12 @@ public class Curso {
     private int duracionHoras;
     private LocalDate fechaInicio;
 
+    @Override
+    public String toString() {
+        return String.format(
+                "Curso{codigo=%s, nombre='%s', precio=S/. %.2f, duracion=%d horas, inicio=%s}",
+                codigo, nombre, precio, duracionHoras, fechaInicio
+        );
+    }
+
 }

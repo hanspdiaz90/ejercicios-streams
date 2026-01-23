@@ -17,7 +17,7 @@ public class Validacion {
     }
 
     public static double leerDoble(String mensaje, Scanner scanner) {
-        System.out.println(mensaje);
+        System.out.print(mensaje);
         while (!scanner.hasNextDouble()) {
             System.out.print(Constante.MENSAJE_NUMERO_INVALIDO);
             scanner.next();
@@ -27,7 +27,7 @@ public class Validacion {
 
     public static String leerCadena(String mensaje, Scanner scanner) {
         System.out.print(mensaje);
-        return scanner.nextLine().trim();
+        return scanner.next().trim();
     }
 
     public static int leerOpciones(String mensaje, Scanner scanner, Map<Integer, String> tabla) {
@@ -39,11 +39,6 @@ public class Validacion {
             }
         } while (!tabla.containsKey(opcion));
         return opcion;
-    }
-
-    public static void mostrarTabla(String titulo, Map<Integer, String> mapa) {
-        System.out.println(titulo);
-        mapa.forEach((clave, valor) -> System.out.println("[" + clave + "] " + valor));
     }
 
 }

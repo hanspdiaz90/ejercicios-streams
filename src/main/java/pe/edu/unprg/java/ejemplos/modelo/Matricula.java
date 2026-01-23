@@ -17,4 +17,13 @@ public class Matricula {
     private double notaFinal;
     private boolean aprobado;
 
+    @Override
+    public String toString() {
+        return String.format(
+                "Matricula{alumno='%s %s %s', curso='%s', matricula=%s, nota=%.2f, aprobado=%s}",
+                alumno.getNombres(), alumno.getApellidoPaterno(), alumno.getApellidoMaterno(), curso.getNombre(),
+                fechaMatricula, notaFinal, aprobado
+        );
+    }
+
 }

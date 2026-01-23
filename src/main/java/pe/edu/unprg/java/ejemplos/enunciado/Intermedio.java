@@ -1,4 +1,4 @@
-package pe.edu.unprg.java.ejemplos.utilidad;
+package pe.edu.unprg.java.ejemplos.enunciado;
 
 import pe.edu.unprg.java.ejemplos.modelo.Empleado;
 import pe.edu.unprg.java.ejemplos.modelo.Pedido;
